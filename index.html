@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="EasonEats: Yeow Eason’s Week 7 Food Media portfolio, featuring Nick DiGiovanni, his biography, cookbook, television appearances, social profiles, awards, and three original foodie posts." name="description"/>
+<title>EasonEats | Week 7 Food Media Portfolio</title>
+<style>
+:root{--orange:#9B3038;--cream:#F7F5F3;--ink:#242122;--red:#8E2932;--yellow:#D9D5D3;--green:#777273;--muted:#777273;--card:#FFFFFF;--line:#D8D2D0;--shadow:0 12px 35px #4b281310}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:100px}body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}a{color:var(--red);text-underline-offset:3px}a:hover{color:#702129}.wrap{width:min(1120px,92%);margin:auto}.topbar{position:sticky;top:0;z-index:20;background:#F7F5F3ee;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font-weight:950;letter-spacing:-.04em;font-size:1.15rem;white-space:nowrap}.brand-mark{display:grid;place-items:center;width:40px;height:40px;background:#C8102E;border-radius:14px;transform:none;font-size:1.3rem}.links{display:flex;align-items:center;gap:16px;flex-wrap:wrap}.links a,.dropbtn{font-size:.86rem;font-weight:800;text-decoration:none;color:var(--ink);padding:8px 0;border:0;border-bottom:2px solid transparent;background:none;cursor:pointer;font-family:inherit}.links a:hover,.dropbtn:hover{border-color:var(--orange)}.dropdown{position:relative}.dropmenu{display:none;position:absolute;top:100%;left:-14px;min-width:230px;background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:14px;padding:8px;z-index:40}.dropmenu a{display:block;padding:9px 12px;border-radius:8px;border:0;white-space:nowrap}.dropmenu a:hover{background:#F0E7E6}.dropdown:hover .dropmenu,.dropdown:focus-within .dropmenu{display:block}.hero{padding:50px 0 58px}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:42px;align-items:center}.eyebrow,.chip{display:inline-flex;align-items:center;background:#F0E7E6;border:1px solid #D8BFC0;padding:6px 12px;border-radius:99px;font-size:.76rem;text-transform:uppercase;font-weight:900;letter-spacing:.07em}h1{font-size:clamp(2.8rem,6.5vw,5.6rem);line-height:.96;letter-spacing:-.075em;margin:20px 0}h1 span{color:var(--orange);display:block}h2{font-size:clamp(2rem,4vw,3rem);letter-spacing:-.055em;line-height:1.08;margin:7px 0 12px}h3{margin:8px 0;font-size:1.28rem;line-height:1.2;letter-spacing:-.03em}p{color:#5E5859}.lead{font-size:1.12rem;max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.btn{display:inline-flex;align-items:center;justify-content:center;border:2px solid var(--ink);padding:10px 16px;border-radius:999px;text-decoration:none;font-weight:850;color:var(--ink)}.btn.primary{background:var(--ink);color:white}.profile-frame{background:#F0E7E6;border:2px solid var(--ink);border-radius:34px;padding:18px;transform:rotate(1deg);box-shadow:8px 8px 0 var(--ink)}.profile-placeholder{min-height:330px;border:2px dashed #c88f6b;border-radius:23px;background:linear-gradient(135deg,#F7F5F3,#f9d9bd);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;transform:rotate(-1deg)}.avatar{font-size:4rem;margin-bottom:10px}.profile-placeholder strong{font-size:1.2rem}.profile-placeholder span{font-size:.9rem;color:var(--muted)}section{padding:55px 0}.page-hero{padding:42px 0 25px}.page-hero h1{font-size:clamp(2.5rem,6vw,4.5rem);margin:12px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:25px}.kicker{font-size:.76rem;text-transform:uppercase;letter-spacing:.12em;font-weight:950;color:var(--red)}.section-intro{max-width:560px;margin:0;color:var(--muted)}.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:24px;box-shadow:var(--shadow)}.card p{margin:8px 0}.card img{width:100%;height:235px;object-fit:cover;display:block;border-radius:17px;margin-bottom:17px}.tag{display:inline-block;font-size:.75rem;font-weight:900;border-radius:999px;padding:5px 9px;background:#F0E7E6;color:#702129}.number{font-size:.8rem;color:var(--red);font-weight:950;letter-spacing:.12em}.feature{display:grid;grid-template-columns:.75fr 1.25fr;gap:22px;align-items:stretch}.nick-art{background:var(--yellow);border:2px solid var(--ink);border-radius:24px;min-height:280px;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;font-size:1.1rem;font-weight:900}.list{padding-left:20px}.list li{margin:7px 0}.notice{border-left:4px solid var(--orange);padding:12px 16px;background:#F0E7E6;border-radius:0 12px 12px 0;color:#5E5859;margin:16px 0}.media-placeholder{min-height:155px;border:2px dashed #BEB7B7;background:#F7F5F3;border-radius:17px;display:grid;place-items:center;text-align:center;padding:20px;color:#777273;margin-bottom:14px}.food-card{padding:0;overflow:hidden;display:flex;flex-direction:column}.food-card img{height:245px;object-fit:cover;border-radius:0;margin:0}.food-body{padding:21px;display:flex;flex-direction:column;flex:1}.food-body .btn{align-self:flex-start;margin-top:auto}.meta{font-size:.84rem;color:var(--muted)}.dark{background:var(--ink);color:var(--cream)}.dark p,.dark .section-intro{color:#D8D2D0}.dark .card{background:#302C2D;border-color:#51494A}.dark .card p{color:#D8D2D0}.dark a{color:#E5DCDD}.photo-placeholder{border:2px dashed #BEB7B7;background:#F7F5F3;border-radius:18px;min-height:125px;display:grid;place-items:center;text-align:center;padding:18px;color:#777273}.refs li{margin:0 0 13px;color:#5e524a;overflow-wrap:anywhere}.small{font-size:.88rem;color:var(--muted)}.footer{background:#242122;color:#F7F5F3;padding:30px 0}.footer-row{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer .small{color:#D8D2D0}.toplink{font-weight:900;text-decoration:none;color:#E5DCDD}.section-divider{border:0;border-top:1px solid var(--line);margin:25px 0}
+@media(max-width:850px){.nav{align-items:flex-start;padding:12px 0;flex-direction:column}.links{gap:6px 14px}.hero-grid,.feature{grid-template-columns:1fr}.grid3{grid-template-columns:1fr 1fr}.section-head{align-items:start;flex-direction:column}.profile-placeholder{min-height:260px}}
+@media(max-width:560px){.grid2,.grid3{grid-template-columns:1fr}section{padding:42px 0}.hero{padding-top:35px}.links a,.dropbtn{font-size:.8rem}.dropmenu{left:0}.card img{height:230px}}
+
+/* EasonEats refined warm red / white / black / grey theme */
+:root {
+  --orange:#9B3038;
+  --cream:#F7F5F3;
+  --ink:#242122;
+  --red:#8E2932;
+  --yellow:#D9D5D3;
+  --green:#777273;
+  --muted:#777273;
+  --card:#FFFFFF;
+  --line:#D8D2D0;
+  --shadow:0 12px 35px rgba(36,33,34,.08);
+}
+body { background:var(--cream); color:var(--ink); }
+.topbar { background:rgba(247,245,243,.96); border-bottom-color:var(--line); }
+.brand-mark { background:var(--orange); color:#FFFFFF; }
+.links a.active,.links a:hover { border-color:var(--orange); }
+.eyebrow,.chip { background:#F0E7E6; border-color:#D8BFC0; color:#702129; }
+.hero-art { background:var(--orange); }
+.sticker { background:#E7E3E1; color:var(--ink); }
+.card,.food-card,.blog-feature { border-color:var(--line); }
+.blog-feature,.notice { background:#F0E7E6; border-color:var(--line); }
+.notice { border-left-color:var(--orange); color:#51494A; }
+.pill { border-color:var(--line); color:var(--ink); }
+.dark { background:#242122; color:#F7F5F3; }
+.footer { background:#242122; color:#F7F5F3; }
+a { color:var(--red); }
+a:hover { color:#702129; }
+.btn.primary { background:#242122; border-color:#242122; color:#FFFFFF; }
+.photo-placeholder { border-color:#BEB7B7; background:#F7F5F3; color:#5E5859; }
+
+
+/* Separate navigation pages: only the selected page is visible. */
+main > section.page-hidden{display:none!important}
+.links a[aria-current="page"], .dropbtn[aria-current="page"]{color:var(--red);border-bottom-color:var(--orange)}
+.dropbtn{white-space:nowrap}
+@media(max-width:700px){.nav{align-items:flex-start;padding:12px 0;flex-direction:column}.links{gap:10px 16px}.dropmenu{left:0}}
+
+
+/* EasonEats — refreshed Nick's Kitchen-inspired red / white / black / grey theme */
+:root {
+  color-scheme: light;
+  --orange: #C8102E;
+  --cream: #FFFFFF;
+  --ink: #191919;
+  --red: #B10E27;
+  --yellow: #EDEDEE;
+  --green: #55565A;
+  --muted: #55565A;
+  --card: #FFFFFF;
+  --line: #E0E0E0;
+  --shadow: 0 10px 28px rgba(20, 20, 20, .07);
+}
+
+html { background: #FFFFFF; color-scheme: light; }
+body { background: #FFFFFF !important; color: #191919 !important; }
+main { background: #FFFFFF; }
+.topbar { background: rgba(255,255,255,.97) !important; border-bottom: 1px solid #E1E1E1 !important; }
+.brand, .brand:visited { color: #191919 !important; }
+.brand-mark { background: #C8102E !important; color: #FFFFFF !important; }
+.links a, .dropbtn { color: #191919 !important; }
+.links a:hover, .dropbtn:hover,
+.links a[aria-current="page"], .dropbtn[aria-current="page"] { color: #B10E27 !important; border-bottom-color: #C8102E !important; }
+.dropmenu { background: #FFFFFF !important; border-color: #E0E0E0 !important; }
+.dropmenu a:hover { background: #FCEDEF !important; color: #9E0C23 !important; }
+
+h1, h2, h3, h4, h5, h6 { color: #191919 !important; }
+h1 span { color: #C8102E !important; }
+p, li, .lead, .section-intro, .meta, .small { color: #424242 !important; }
+.lead { color: #424242 !important; }
+.eyebrow, .chip, .tag { background: #FCEDEF !important; border-color: #F0C5CC !important; color: #9E0C23 !important; }
+.kicker, .number { color: #B10E27 !important; }
+
+/* White canvas and quiet grey panels keep the red accents intentional. */
+section { background-color: #FFFFFF; color: #191919; }
+section.dark { background: #F3F3F3 !important; color: #191919 !important; }
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 { color: #191919 !important; }
+.dark p, .dark li, .dark .section-intro, .dark .small { color: #424242 !important; }
+.dark .card { background: #FFFFFF !important; border-color: #E0E0E0 !important; color: #191919 !important; }
+.dark .card h1, .dark .card h2, .dark .card h3, .dark .card h4,
+.dark .card strong { color: #191919 !important; }
+.dark .card p, .dark .card li, .dark .card .small { color: #424242 !important; }
+.dark a { color: #B10E27 !important; }
+
+.card, .food-card, .blog-feature { background: #FFFFFF !important; color: #191919 !important; border-color: #E0E0E0 !important; box-shadow: 0 10px 28px rgba(20,20,20,.07) !important; }
+.card h1, .card h2, .card h3, .card h4, .card strong,
+.food-card h1, .food-card h2, .food-card h3, .food-card h4 { color: #191919 !important; }
+.card p, .card li, .food-card p, .food-card li { color: #424242 !important; }
+.feature > .card, .feature .card { background: #FFFFFF !important; color: #191919 !important; }
+.feature > .card h2, .feature > .card h3, .feature > .card h4 { color: #191919 !important; }
+.feature > .card p, .feature > .card li { color: #424242 !important; }
+.nick-art { background: #F0F0F0 !important; border-color: #191919 !important; color: #191919 !important; }
+.nick-art span { color: #424242 !important; }
+
+.btn { background: #FFFFFF !important; border-color: #191919 !important; color: #191919 !important; }
+.btn:hover { background: #F3F3F3 !important; color: #191919 !important; }
+.btn.primary { background: #C8102E !important; border-color: #C8102E !important; color: #FFFFFF !important; }
+.btn.primary:hover { background: #A10D25 !important; border-color: #A10D25 !important; color: #FFFFFF !important; }
+.actions .btn, a.btn { text-decoration: none; }
+
+.profile-frame { background: #F1F1F1 !important; border-color: #191919 !important; box-shadow: 8px 8px 0 #191919 !important; }
+.profile-placeholder { background: linear-gradient(135deg, #FFFFFF, #F0F0F0) !important; border-color: #C8102E !important; color: #191919 !important; }
+.profile-placeholder strong { color: #191919 !important; }
+.profile-placeholder span { color: #55565A !important; }
+.media-placeholder, .photo-placeholder { background: #F5F5F5 !important; border-color: #BEBEBE !important; color: #4A4A4A !important; }
+.notice { background: #FCEDEF !important; border-left-color: #C8102E !important; color: #393939 !important; }
+.notice p, .notice li { color: #393939 !important; }
+.pill { background: #FFFFFF !important; border-color: #D8D8D8 !important; color: #191919 !important; }
+
+.footer { background: #191919 !important; color: #FFFFFF !important; }
+.footer p, .footer .small { color: #E5E5E5 !important; }
+.footer a, .toplink { color: #FFFFFF !important; }
+a { color: #B10E27; text-underline-offset: 3px; }
+a:hover { color: #8F0B20; }
+
+/* Keep the independent-page interaction intact. */
+main > section.page-hidden { display: none !important; }
+@media (max-width: 700px) {
+  .topbar { background: rgba(255,255,255,.98) !important; }
+  .links a, .dropbtn { color: #191919 !important; }
+}
+
+
+/* Clear, accessible All About Nick submenu — Social Media follows TV Shows */
+.dropdown { position: relative; }
+.dropbtn { display: inline-flex; align-items: center; gap: 7px; }
+.dropdown-caret { display: inline-block; font-size: .75em; transition: transform .18s ease; }
+.dropdown.open .dropdown-caret { transform: rotate(180deg); }
+.dropmenu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 8px);
+  left: -12px;
+  min-width: 250px;
+  padding: 8px;
+  background: #FFFFFF !important;
+  border: 1px solid #D7D7D7 !important;
+  border-top: 4px solid #C8102E !important;
+  border-radius: 10px;
+  box-shadow: 0 16px 38px rgba(25,25,25,.16) !important;
+  z-index: 1000;
+}
+.dropdown:hover .dropmenu,
+.dropdown:focus-within .dropmenu,
+.dropdown.open .dropmenu { display: block; }
+.dropmenu a.nick-subnav {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px 13px;
+  margin: 1px 0;
+  border: 0 !important;
+  border-radius: 6px;
+  color: #191919 !important;
+  background: #FFFFFF !important;
+  text-decoration: none;
+  font-size: .93rem;
+  font-weight: 700;
+  line-height: 1.3;
+  white-space: nowrap;
+}
+.dropmenu a.nick-subnav:hover,
+.dropmenu a.nick-subnav:focus-visible {
+  background: #FCEDEF !important;
+  color: #A20C25 !important;
+  outline: 2px solid #C8102E;
+  outline-offset: -2px;
+}
+.dropmenu a.nick-subnav:active { background: #F4DADD !important; }
+@media (max-width: 700px) {
+  .dropdown { position: relative; }
+  .dropmenu { left: 0; top: calc(100% + 6px); min-width: min(270px, calc(100vw - 32px)); }
+  .dropmenu a.nick-subnav { white-space: normal; }
+}
+
+
+
+/* Week 7 content refresh: consistent red / white / charcoal / light-grey styling */
+:root{--brand-red:#C8102E;--brand-red-dark:#9F1027;--brand-ink:#191919;--brand-body:#444044;--brand-muted:#5F5B5C;--brand-white:#FFFFFF;--brand-grey:#F2F2F2;--brand-line:#DEDEDE;--brand-pink:#FCEDEF}
+body{background:#fff!important;color:var(--brand-ink)!important}
+main{background:#fff}
+.topbar{background:rgba(255,255,255,.97)!important;border-bottom:1px solid var(--brand-line)!important}
+.brand,.brand:visited{color:var(--brand-ink)!important}
+.brand-mark{background:var(--brand-red)!important;color:#fff!important}
+.links a,.dropbtn{color:var(--brand-ink)!important}
+.links a:hover,.dropbtn:hover,.links a[aria-current=page],.dropbtn[aria-current=page]{color:var(--brand-red-dark)!important;border-bottom-color:var(--brand-red)!important}
+.dropmenu{background:#fff!important;border-color:var(--brand-line)!important;border-top:4px solid var(--brand-red)!important}
+.dropmenu a:hover{background:var(--brand-pink)!important;color:var(--brand-red-dark)!important}
+h1,h2,h3,h4,h5,h6{color:var(--brand-ink)!important}
+h1 span{color:var(--brand-red)!important}
+p,li,.lead,.section-intro,.meta,.small{color:var(--brand-body)!important}
+.eyebrow,.chip,.tag{background:var(--brand-pink)!important;border-color:#F0C5CC!important;color:#941027!important}
+.kicker,.number{color:var(--brand-red-dark)!important}
+section.dark{background:var(--brand-grey)!important;color:var(--brand-ink)!important}
+.dark p,.dark li,.dark .section-intro,.dark .small{color:var(--brand-body)!important}
+.card,.food-card,.blog-feature{background:#fff!important;color:var(--brand-ink)!important;border-color:var(--brand-line)!important;box-shadow:0 10px 28px rgba(25,25,25,.06)!important}
+.card h1,.card h2,.card h3,.card h4,.card strong,.food-card h1,.food-card h2,.food-card h3,.food-card h4{color:var(--brand-ink)!important}
+.card p,.card li,.food-card p,.food-card li{color:var(--brand-body)!important}
+.feature{align-items:stretch}
+.section-head{align-items:end}
+.btn{background:#fff!important;border-color:var(--brand-ink)!important;color:var(--brand-ink)!important}
+.btn.primary{background:var(--brand-red)!important;border-color:var(--brand-red)!important;color:#fff!important}
+.btn.primary:hover{background:var(--brand-red-dark)!important;border-color:var(--brand-red-dark)!important}
+.notice{background:var(--brand-pink)!important;border-left-color:var(--brand-red)!important;color:#3A3536!important}
+.notice p,.notice li{color:#3A3536!important}
+.media-photo{display:block;width:100%;height:260px;object-fit:cover;border-radius:18px;margin:0 0 16px;background:#eee}
+.profile-photo{display:block;width:100%;height:350px;object-fit:cover;object-position:center 25%;border-radius:20px;background:#eee}
+.book-cover{display:block;width:100%;height:360px;object-fit:contain;background:#F4F4F4;border-radius:18px;margin-bottom:16px}
+.definition-image{display:block;width:100%;height:auto;max-height:260px;object-fit:contain;background:#fff;border:1px solid var(--brand-line);border-radius:14px;padding:10px}
+.photo-panel{background:var(--brand-grey);border:1px solid var(--brand-line);border-radius:24px;padding:14px;min-width:0}
+.photo-panel figcaption{font-size:.82rem;color:var(--brand-muted);margin:8px 4px 2px}
+.subsection{padding-top:28px;margin-top:30px;border-top:1px solid var(--brand-line);scroll-margin-top:105px}
+.section-anchor{scroll-margin-top:105px}
+.show-card .media-photo{height:225px}
+.show-card .tag{margin-bottom:5px}
+.show-card .role{font-weight:800;color:var(--brand-red-dark)!important;margin:0 0 8px}
+.social-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+.social-card{min-width:0;text-align:center}
+.social-brand{height:92px;border-radius:17px;background:var(--brand-grey);border:1px solid var(--brand-line);display:flex;align-items:center;justify-content:center;font-size:1.25rem;font-weight:950;letter-spacing:-.04em;color:var(--brand-red-dark);margin-bottom:14px}
+.social-brand span{display:inline-grid;place-items:center;width:45px;height:45px;border-radius:50%;background:#fff;border:1px solid var(--brand-line);font-size:1.5rem}
+.social-card .btn{margin-top:12px;width:100%;padding:8px 10px;font-size:.83rem}
+.award-card .media-photo{height:200px;object-fit:cover}
+.award-art{height:200px;border-radius:17px;background:linear-gradient(135deg,#F4F4F4,#E4E4E4);border:1px solid var(--brand-line);display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;padding:20px;margin-bottom:16px;color:var(--brand-ink)}
+.award-art .award-icon{font-size:2.4rem;margin-bottom:7px}
+.award-art strong{font-size:1.1rem;line-height:1.2;color:var(--brand-ink)!important}
+.award-art small{margin-top:7px;color:var(--brand-muted);font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.foodie-definition{display:grid;grid-template-columns:.75fr 1.25fr;gap:22px;align-items:start}
+.foodie-definition .card{height:100%}
+.food-card .food-body{gap:8px}
+.food-card .food-body p{margin:5px 0}
+.food-card .food-body .rating{font-weight:950;color:var(--brand-red-dark)!important;margin-top:10px}
+.hashtag-line{font-size:.87rem!important;color:var(--brand-muted)!important;overflow-wrap:anywhere}
+.missing-media{min-height:190px;border:2px dashed #B7B7B7;background:#F4F4F4;border-radius:17px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:20px;color:#555;margin-bottom:15px}
+.missing-media .icon{font-size:2rem;margin-bottom:8px}
+.missing-media strong{color:#252525!important}
+.footer{background:var(--brand-ink)!important;color:#fff!important}
+.footer p,.footer .small{color:#E6E6E6!important}
+.footer a,.toplink{color:#fff!important}
+@media(max-width:900px){.social-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.foodie-definition{grid-template-columns:1fr}}
+@media(max-width:560px){.social-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.profile-photo{height:300px}.book-cover{height:300px}.show-card .media-photo{height:220px}}
+
+/* Photo framing pass: keep faces and full subjects inside their image frames */
+.profile-frame { padding: 12px !important; transform:none !important; overflow:hidden; }
+.profile-photo-wrap { min-height:0 !important; padding:0 !important; transform:none !important; overflow:hidden; background:#F3F3F3 !important; border:0 !important; border-radius:22px !important; }
+.profile-photo { display:block; width:100%; height:auto; max-height:620px; object-fit:contain !important; object-position:center center; border-radius:18px; background:#F3F3F3; }
+img { object-fit:contain; object-position:center center; }
+.photo-panel img, .card img, .media-card img, .show-card img, .award-card img, .food-post img, figure img { width:100%; height:auto; max-height:520px; object-fit:contain !important; object-position:center center; background:#F3F3F3; }
+.photo-panel, figure { overflow:hidden; }
+@media (max-width:700px) {
+ .profile-photo { max-height:520px; }
+ .photo-panel img, .card img, .media-card img, .show-card img, .award-card img, .food-post img, figure img { max-height:380px; }
+}
+
+
+/* Final refinements requested: chef-hat branding, snug image cards, isolated pages */
+.brand-mark.chef-mark { transform:none !important; border-radius:14px !important; }
+.brand-mark.chef-mark svg { display:block; width:29px; height:29px; }
+.brand-chef-icon { display:inline-block; vertical-align:middle; width:40px; height:40px; padding:5px; background:#C8102E; border-radius:14px; margin-right:10px; }
+.feature { align-items:start !important; }
+.photo-panel { align-self:start !important; height:fit-content !important; min-height:0 !important; margin:0 !important; }
+.photo-panel img { display:block; width:100%; height:auto !important; max-height:560px; object-fit:contain !important; }
+.photo-panel figcaption { margin-top:8px !important; }
+main > section.page-hidden { display:none !important; }
+main > section:not(.page-hidden) { display:block; }
+@media (max-width:700px) {
+  .feature { align-items:start !important; }
+  .photo-panel { width:100%; }
+  .photo-panel img { max-height:440px; }
+}
+
+
+/* Explicit page isolation: never stack separate navigation pages */
+main > section.page-hidden,
+main > section[hidden] { display:none !important; }
+main > section:not(.page-hidden):not([hidden]) { display:block; }
+
+
+/* Food-magazine paper styling: subtle torn edges, paper layers and food doodles */
+:root{
+  --paper:#FFFDF9;
+  --paper-shadow:#E7DFD7;
+  --food-red:#C8102E;
+}
+body{
+  background:
+    radial-gradient(ellipse at 8% 15%, rgba(200,16,46,.035) 0 2px, transparent 3px),
+    radial-gradient(ellipse at 88% 35%, rgba(179,125,72,.055) 0 2px, transparent 3px),
+    #F6F2ED !important;
+  background-size:34px 34px, 42px 42px, auto !important;
+}
+main > section:not(.dark){
+  background:transparent;
+  position:relative;
+}
+.page-hero{
+  position:relative;
+  background:var(--paper);
+  padding:30px 32px 38px !important;
+  border:1px solid #E6DCD3;
+  border-radius:4px 4px 2px 2px;
+  box-shadow:0 8px 0 rgba(55,38,30,.035);
+  clip-path:polygon(0 0,100% 0,100% 94%,96% 96%,91% 94%,86% 97%,80% 95%,74% 98%,67% 95%,61% 97%,54% 95%,47% 98%,39% 95%,32% 97%,25% 95%,18% 98%,11% 95%,5% 97%,0 95%);
+}
+.page-hero::after{
+  content:"✦  🍋  ✦";
+  position:absolute;
+  right:22px;
+  bottom:6px;
+  font-size:14px;
+  letter-spacing:5px;
+  color:#B77B65;
+  opacity:.78;
+}
+#home .hero-grid > div:first-child{
+  position:relative;
+}
+#home .hero-grid > div:first-child::after{
+  content:"🥑  🍓  🍕";
+  display:block;
+  margin-top:26px;
+  font-size:22px;
+  letter-spacing:9px;
+  opacity:.85;
+  transform:rotate(-2deg);
+}
+.card,.photo-panel,.profile-frame{
+  background:var(--paper);
+  border-color:#E1D6CD;
+  box-shadow:0 7px 0 rgba(45,30,22,.035);
+}
+.card{
+  position:relative;
+}
+.card::before{
+  content:"";
+  position:absolute;
+  width:52px;
+  height:13px;
+  top:-6px;
+  left:22px;
+  background:rgba(200,16,46,.12);
+  transform:rotate(-3deg);
+  border-radius:2px;
+  pointer-events:none;
+}
+.dark .card::before{background:rgba(255,255,255,.2)}
+.section-head{
+  position:relative;
+}
+.section-head::after{
+  content:"✦";
+  color:#C8102E;
+  font-size:24px;
+  opacity:.65;
+  margin-left:auto;
+}
+.social-brand{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#FFFDF9;
+  border:1px solid #E8DDD5;
+  border-radius:18px;
+  box-shadow:0 4px 0 rgba(35,24,20,.06);
+}
+.social-brand svg{width:52px;height:52px;display:block}
+.social-youtube svg{width:60px;height:44px}
+.social-tiktok svg{width:50px;height:50px}
+.social-facebook svg{width:48px;height:48px}
+.social-snapchat svg{width:48px;height:48px}
+.social-instagram svg{width:48px;height:48px}
+.social-card h3{margin-top:12px}
+.social-card .btn{margin-top:8px}
+.food-card,.food-post{
+  background:var(--paper);
+  border:1px solid #E5D9D0;
+  border-radius:20px 20px 6px 20px;
+}
+.food-card::after,.food-post::after{
+  content:"";
+  position:absolute;
+  right:16px;
+  top:12px;
+  width:36px;
+  height:10px;
+  background:rgba(200,16,46,.12);
+  transform:rotate(4deg);
+}
+footer{
+  background:#EDE4DC;
+  border-top:1px dashed #C8B6A7;
+}
+@media(max-width:700px){
+ .page-hero{padding:24px 20px 34px !important}
+ .section-head::after{display:none}
+ #home .hero-grid > div:first-child::after{font-size:18px;letter-spacing:5px}
+}
+
+
+/* Foodie definition layout: large image first, explanatory card below */
+.foodie-definition{
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:stretch !important;
+  gap:24px !important;
+  grid-template-columns:none !important;
+}
+.foodie-definition > figure.photo-panel{
+  order:1;
+  width:100% !important;
+  max-width:none !important;
+  align-self:stretch !important;
+  padding:18px !important;
+  margin:0 !important;
+  background:#FFFDF9 !important;
+}
+.foodie-definition > figure.photo-panel img.definition-image{
+  display:block;
+  width:100% !important;
+  height:auto !important;
+  max-height:none !important;
+  object-fit:contain !important;
+  object-position:center !important;
+  border-radius:14px;
+}
+.foodie-definition > article.card{
+  order:2;
+  width:100% !important;
+  max-width:none !important;
+  margin:0 !important;
+}
+.foodie-definition > article.card .tag{display:inline-flex}
+@media(max-width:700px){
+  .foodie-definition{gap:16px !important}
+  .foodie-definition > figure.photo-panel{padding:10px !important}
+}
+
+
+/* Favourite media video card */
+.favourite-media-card .video-thumbnail-link{
+  position:relative;display:block;overflow:hidden;border-radius:16px;
+  background:#191919;margin-bottom:16px;aspect-ratio:16/9;
+}
+.favourite-media-card .video-thumbnail{
+  display:block;width:100%;height:100%;object-fit:cover !important;
+  max-height:none !important;transition:transform .25s ease;
+}
+.favourite-media-card .video-thumbnail-link:hover .video-thumbnail{transform:scale(1.035)}
+.favourite-media-card .video-play{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  width:58px;height:42px;border-radius:13px;background:#FF0033;color:#fff;
+  display:grid;place-items:center;font-size:23px;padding-left:3px;
+  box-shadow:0 4px 16px rgba(0,0,0,.25)
+}
+.favourite-media-card .btn{display:inline-flex;margin-top:8px}
+/* Instagram Reel artwork for favourite media item 02 (a designed link cover, not a screenshot). */
+.instagram-favourite-card .instagram-reel-link{display:block;text-decoration:none;margin-bottom:16px;border-radius:16px;overflow:hidden;}
+.instagram-reel-poster{position:relative;isolation:isolate;aspect-ratio:16/9;overflow:hidden;display:flex;flex-direction:column;justify-content:center;gap:8px;padding:20px 22px;color:#fff;background:radial-gradient(circle at 82% 25%,rgba(255,255,255,.17) 0 7%,transparent 7.5%),linear-gradient(135deg,#171717 0%,#2a2222 48%,#9b1028 100%);}
+.instagram-reel-poster:before{content:"";position:absolute;z-index:-1;width:230px;height:230px;border:30px solid rgba(255,255,255,.08);border-radius:50%;right:-60px;bottom:-120px;}
+.instagram-reel-platform{display:inline-flex;align-items:center;gap:7px;align-self:flex-start;border:1px solid rgba(255,255,255,.45);border-radius:999px;padding:4px 10px;font-size:.72rem;font-weight:800;letter-spacing:.03em;background:rgba(0,0,0,.22);}
+.instagram-glyph{font-size:1.3rem;line-height:1;background:linear-gradient(35deg,#ffcf67,#f64b5d 52%,#b845c5);color:transparent;background-clip:text;-webkit-background-clip:text;}
+.instagram-reel-title{font-size:clamp(1.45rem,3vw,2.35rem);font-weight:1000;line-height:.92;letter-spacing:-.045em;text-shadow:0 2px 12px rgba(0,0,0,.2);}
+.instagram-reel-subtitle{max-width:84%;font-size:.7rem;font-weight:900;letter-spacing:.08em;line-height:1.3;color:#ffe7a7;}
+.instagram-reel-play{position:absolute;right:20px;top:50%;transform:translateY(-50%);width:45px;height:45px;border-radius:50%;display:grid;place-items:center;padding-left:3px;background:#fff;color:#c8102e;font-size:1.15rem;box-shadow:0 4px 18px rgba(0,0,0,.25);}
+.instagram-reel-sticker{position:absolute;right:17px;bottom:13px;transform:rotate(-7deg);background:#ffe7a7;color:#211b1b;padding:5px 8px;font-size:.55rem;line-height:1;font-weight:1000;letter-spacing:.08em;box-shadow:2px 3px 0 rgba(0,0,0,.18);}
+.instagram-favourite-card .instagram-reel-link:hover .instagram-reel-poster{filter:saturate(1.13);}
+@media(max-width:560px){.instagram-reel-poster{padding:14px;gap:6px}.instagram-reel-title{font-size:1.6rem}.instagram-reel-subtitle{font-size:.58rem;max-width:82%}.instagram-reel-play{right:12px;width:36px;height:36px}}
+
+
+
+/* Uploaded award photos */
+#awards .award-photo {
+  display: block;
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  object-position: center;
+  background: #f2f2f2;
+  border-radius: 12px;
+  margin: 0 0 18px;
+}
+@media (max-width: 700px) {
+  #awards .award-photo { height: 210px; }
+}
+</style></head><body>
+<header class="topbar"><div class="wrap nav"><a class="brand" href="#home"><span aria-hidden="true" class="brand-mark chef-mark"><svg aria-label="Chef hat" role="img" viewbox="0 0 48 48"><path d="M13 22.5c-4.2-.7-6.5-3.7-6.5-7.2 0-4 3.2-7.2 7.2-7.2 1.5 0 2.9.5 4 1.3C19.4 5.9 22.8 4 26.5 4c5.5 0 9.9 4.4 9.9 9.9 0 .7-.1 1.4-.2 2.1 2.8.8 4.8 3.3 4.8 6.3 0 3.6-2.9 6.5-6.5 6.5H13c-3.6 0-6.5-2.9-6.5-6.5 0-2.5 1.4-4.7 3.5-5.8" fill="#FFFFFF"></path><path d="M12 28.5h25l-2 12H14z" fill="#FFFFFF"></path><path d="M12 32h23M13 36h22" stroke="#C8102E" stroke-linecap="round" stroke-width="2.2"></path></svg></span> EasonEats</a><nav aria-label="Main navigation" class="links"><a aria-label="Open Home page" class="page-nav" data-page="home" href="#home">Home Page</a><div class="dropdown"><button aria-controls="nick-submenu" aria-expanded="false" aria-haspopup="true" aria-label="Open All About Nick submenu" class="dropbtn" data-page="nick" type="button">All About Nick <span aria-hidden="true" class="dropdown-caret">▾</span></button><div class="dropmenu" id="nick-submenu"><a class="nick-subnav" data-page="nick" href="#about-nick">About Nick</a><a class="nick-subnav" data-page="nick" href="#why-nick">Why Nick Is My Favourite Chef</a><a class="nick-subnav" data-page="nick" href="#nick-cookbook">Nick’s Cookbook</a><a class="nick-subnav" data-page="nick" href="#tv-shows">TV Shows</a><a class="nick-subnav" data-page="nick" href="#social-media">Social Media</a><a class="nick-subnav" data-page="nick" href="#awards">Awards</a><a class="nick-subnav" data-page="nick" href="#favourite-media">My 3 Favourite Media Items</a></div></div><a class="page-nav" data-page="foodie" href="#foodie-post">Foodie Post</a></nav></div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid"><div><span class="eyebrow">Food Media · Student Portfolio</span><h1>Hi, I'm Yeow Eason.<span>Welcome to EasonEats.</span></h1><p class="lead">Welcome to my food media page! I’m a Food Science student currently in my 4th semester of my second year degree, discovering more about food paradise. Here, you can follow me through my journey and uncover my personal thoughts and opinions on different foods!</p><p class="meta"><strong>Student ID:</strong> 0374443</p><div class="actions"><a class="btn primary" href="#about-nick">Meet Nick DiGiovanni →</a><a class="btn" href="#foodie-post">Explore my foodie posts</a></div></div><div class="profile-frame"><div class="profile-placeholder profile-photo-wrap"><img alt="Yeow Eason standing at an outdoor concert display" class="profile-photo" loading="eager" src="assets/images/yeow-eason-concert-profile.jpg"/></div></div></div></section>
+<section id="about-nick">
+<div class="wrap">
+<div class="page-hero">
+<span class="kicker">01 / All About Nick</span>
+<h1>Meet Nick DiGiovanni</h1>
+<p class="lead">A look at Nick’s journey, why I enjoy his food content, and his cookbook.</p>
+</div>
+<div class="feature" id="about-nick-bio">
+<figure class="photo-panel">
+<img alt="Portrait of Nick DiGiovanni from the supplied PDF" class="profile-photo" loading="lazy" src="assets/images/nick-digiovanni-portrait.jpg" title="Portrait of Nick DiGiovanni from the supplied PDF"/>
+<figcaption>Nick DiGiovanni</figcaption>
+</figure>
+<article class="card">
+<span class="tag">About Nick</span>
+<h2>His food journey</h2>
+<p>Born on 19 May 1996 in Providence, Rhode Island, Nick DiGiovanni is currently 30 years old. He developed a love for cooking when he was still a kid, inspired by watching his grandmother and great-grandmother prepare food. Interestingly, Nick went on to study at Harvard University, where he designed his own area of study called <em>Food and Climate</em>. For me, it’s pretty cool to see how his passion for food goes beyond just cooking, as he also explored the relationship between food and the environment. It shows that there is so much more to food than simply making something delicious!</p>
+<p>Nick’s journey took a big step forward when he competed in Season 10 of <em>MasterChef</em>, where he became the youngest-ever finalist in the show’s history and finished in third place. He also gained hands-on experience in professional kitchens, including Benu in San Francisco and Waypoint in Cambridge. What I find interesting about Nick is how he combines his professional cooking experience with a fun and creative approach to food. Instead of making cooking seem complicated or intimidating, he presents it in a way that feels exciting and accessible to everyday food lovers.</p>
+<p>Today, Nick is widely known for his entertaining cooking videos, creative food experiments and impressive food-related world records. He is also the author of <em>Knife Drop: Creative Recipes Anyone Can Cook</em>, which encourages people to try making delicious dishes at home. Personally, I like how his content makes food more than just something we eat — it turns cooking into an experience filled with creativity, curiosity and fun. That’s what makes Nick DiGiovanni an interesting celebrity chef for me to feature on EasonEats!</p>
+</article>
+</div>
+<div class="subsection" id="why-nick">
+<div class="section-head"><div><span class="kicker">02 / Personal choice</span><h2>Why Nick Is My Favourite Chef</h2></div></div>
+<div class="feature">
+<figure class="photo-panel">
+<img alt="Nick DiGiovanni in a kitchen, from the supplied PDF" class="media-photo" loading="lazy" src="assets/images/nick-digiovanni-kitchen.jpg" title="Nick DiGiovanni in a kitchen, from the supplied PDF"/>
+<figcaption>Nick in his studio kitchen</figcaption>
+</figure>
+<article class="card">
+<p>One of the main reasons why Nick DiGiovanni is my favourite chef is the type of content he creates. What I enjoy most is that his videos are not always just about himself or his own cooking. He often collaborates with different celebrity chefs and food creators from around the world, giving viewers the chance to explore different cooking styles, techniques and personalities. As someone who enjoys watching food content, I find this really interesting because I get to discover other chefs that I might not have known about before. It is almost like getting to know several chefs through one channel! I also enjoy seeing how each chef approaches the same ingredient or dish differently, as it reminds me that cooking is not just about following a recipe but also about creativity, experience and personal style.</p>
+<p>Another thing that makes Nick’s journey exciting to follow is his ambition to surpass Gordon Ramsay in YouTube subscribers. When I first learned about this goal, I was curious to see whether he could actually achieve something that seemed so challenging, especially when Gordon Ramsay is already such a well-known chef worldwide. What makes this interesting to me is that Nick did not simply rely on his reputation as a <em>MasterChef</em> finalist. Instead, he continued creating entertaining food videos, experimenting with unusual ideas and collaborating with well-known personalities. In fact, Nick has since surpassed Gordon Ramsay in YouTube subscribers, making his ambition even more fascinating to look back on (<a href="https://www.forbes.com/sites/jonyoushaei/2025/01/07/the-next-gordon-ramsay-how-nick-digiovanni-built-his-youtube-empire/" rel="noopener" target="_blank">Youshaei, 2025</a>). His journey makes me wonder what other goals he will set for himself next, and that curiosity is one of the reasons I continue to follow his content.</p>
+<p>Besides his cooking skills and ambition, I also like how Nick makes food content entertaining and approachable. His videos can be creative, funny and sometimes surprisingly adventurous, which makes me want to keep watching even when I am not looking for a particular recipe. I appreciate how he can introduce cooking techniques and food knowledge without making the experience feel like a serious cooking lesson. To me, that is what makes Nick stand out: he combines his skills as a chef with the creativity of a content creator, making food enjoyable for both experienced cooks and ordinary food lovers. Overall, Nick DiGiovanni is my favourite chef because his content allows me to discover other chefs, learn about different cooking styles and follow an ambitious creator whose food journey keeps me curious about what comes next!</p>
+</article>
+</div>
+</div>
+<div class="subsection" id="nick-cookbook">
+<div class="section-head"><div><span class="kicker">03 / Cookbook</span><h2><em>Knife Drop: Creative Recipes Anyone Can Cook</em> (2023)</h2></div></div>
+<div class="feature">
+<figure class="photo-panel">
+<img alt="Cover of Knife Drop: Creative Recipes Anyone Can Cook by Nick DiGiovanni" class="book-cover" loading="lazy" src="assets/images/knife-drop-book-cover.jpg" title="Cover of Knife Drop: Creative Recipes Anyone Can Cook by Nick DiGiovanni"/>
+<figcaption><em>Knife Drop: Creative Recipes Anyone Can Cook</em></figcaption>
+</figure>
+<article class="card">
+<p>Released on 13 June 2023, <em>Knife Drop: Creative Recipes Anyone Can Cook</em> was Nick DiGiovanni’s very first cookbook. After sharing his cooking knowledge through online videos for years, Nick wanted to bring his favourite recipes, personal experiences and cooking tips together in one book. What I find interesting is that he didn’t write it just for professional chefs or experienced cooks. Instead, he wanted to make cooking fun and accessible to everyone, even those who are just starting out in the kitchen. With creative recipes, practical tips and QR codes linking to cooking tutorials, Nick encourages readers to be more confident, experiment with food and enjoy their own cooking adventures!</p>
+<p><strong>Book title:</strong> <em>Knife Drop: Creative Recipes Anyone Can Cook</em><br/><strong>Published:</strong> 13 June 2023</p>
+<p><a class="btn primary" href="https://www.penguinrandomhouse.com/books/719590/knife-drop-by-nick-digiovanni/" rel="noopener" target="_blank">View publisher page ↗</a></p>
+</article>
+</div>
+</div>
+</div>
+</section>
+<section class="dark" id="tv-shows">
+<div class="wrap">
+<div class="section-head"><div><span class="kicker">04 / Screen appearances</span><h2>TV Shows</h2></div><p class="section-intro">Television shows that Nick has appeared on</p></div>
+<div class="grid2">
+<article class="card show-card"><img alt="Nick DiGiovanni on MasterChef" class="media-photo" loading="lazy" src="assets/images/nick-digiovanni-masterchef.jpg" title="Nick DiGiovanni on MasterChef"/><span class="tag">Competition series</span><h3><em>MasterChef</em> (2019, 2021, 2024, 2026)</h3><p class="role">Contestant, mentor and guest judge</p><p>Nick first gained wider recognition as a finalist on Season 10, finishing in third place. He later returned to the competition in mentoring and judging roles, challenging contestants to demonstrate their creativity, cooking skills and understanding of different food cultures.</p></article>
+<article class="card show-card"><img alt="Nick DiGiovanni on Selena + Chef" class="media-photo" loading="lazy" src="assets/images/nick-digiovanni-selena-and-chef.jpg" title="Nick DiGiovanni on Selena + Chef"/><span class="tag">Cooking series</span><h3><em>Selena + Chef</em> (2022)</h3><p class="role">Guest chef · Season 4, Episode 5</p><p>In this cooking series, Nick teaches Selena Gomez how to make homemade pesto pasta served inside a giant cheese wheel. I think this is a fun example of how Nick makes cooking entertaining while helping someone else learn new techniques.</p></article>
+<article class="card show-card"><img alt="Nick DiGiovanni on 100 Cooks" class="media-photo" loading="lazy" src="assets/images/nick-digiovanni-100-cooks.jpg" title="Nick DiGiovanni on 100 Cooks"/><span class="tag">Food competition</span><h3><em>100 Cooks</em> (2026)</h3><p class="role">Judge</p><p>Nick joins professional chef Alex Guarnaschelli on the judging panel of this cooking competition, where 100 home cooks face unpredictable culinary challenges for a chance to win US$250,000. It is interesting to see him evaluate other cooks and put his own food knowledge to use from the judges’ side of the kitchen.</p></article>
+<article class="card show-card"><img alt="Nick DiGiovanni on America's Test Kitchen: The Next Generation" class="media-photo" loading="lazy" src="assets/images/nick-digiovanni-americas-test-kitchen.jpg" title="Nick DiGiovanni on America's Test Kitchen: The Next Generation"/><span class="tag">Cooking competition</span><h3><em>America’s Test Kitchen: The Next Generation</em> (2022)</h3><p class="role">Guest judge</p><p>This cooking competition gives home cooks the opportunity to prove their abilities, with a US$100,000 prize and the chance to join the America’s Test Kitchen team. Nick appeared as a guest judge, sharing his perspective on the contestants’ dishes and cooking abilities.</p></article>
+<article class="card show-card"><img alt="Dish It Out promotional image" class="media-photo" loading="lazy" src="assets/images/dish-it-out-promo.jpg" title="Dish It Out promotional image"/><span class="tag">Cooking show</span><h3><em>Dish It Out</em></h3><p class="role">Guest chef · Season 1, Episode 28</p><p>Nick appears alongside host Matilda “Tilly” Ramsay to prepare his signature shepherd’s pie. The episode also explores hand pies and a fresh take on lemon meringue, making it a good example of Nick sharing recipe ideas in a traditional cooking-show format.</p></article>
+</div>
+</div>
+</section>
+<section id="social-media"><div class="wrap">
+<div class="section-head"><div><span class="kicker">05 / Online profiles</span><h2>Social Media</h2></div><p class="section-intro">Official social media accounts of Nick DiGiovanni</p></div>
+<div class="social-grid">
+<article class="card social-card"><div aria-label="YouTube logo" class="social-brand social-youtube"><svg aria-hidden="true" role="img" viewbox="0 0 48 34"><rect fill="#FF0033" height="30" rx="8" width="44" x="2" y="2"></rect><path d="M20 10.5L31 17 20 23.5Z" fill="#FFFFFF"></path></svg></div><h3>YouTube</h3><a class="btn primary" href="https://www.youtube.com/@nickdigiovanni" rel="noopener" target="_blank">Visit YouTube ↗</a></article>
+<article class="card social-card"><div aria-label="Instagram logo" class="social-brand social-instagram"><svg aria-hidden="true" role="img" viewbox="0 0 48 48"><defs><lineargradient id="igGradient" x1="0" x2="1" y1="1" y2="0"><stop offset="0" stop-color="#FFB33A"></stop><stop offset=".48" stop-color="#E1306C"></stop><stop offset="1" stop-color="#833AB4"></stop></lineargradient></defs><rect fill="url(#igGradient)" height="42" rx="12" width="42" x="3" y="3"></rect><rect fill="none" height="26" rx="8" stroke="#FFFFFF" stroke-width="3.2" width="26" x="11" y="11"></rect><circle cx="24" cy="24" fill="none" r="6.5" stroke="#FFFFFF" stroke-width="3.2"></circle><circle cx="33" cy="15" fill="#FFFFFF" r="2.2"></circle></svg></div><h3>Instagram</h3><a class="btn primary" href="https://www.instagram.com/nick.digiovanni" rel="noopener" target="_blank">Visit Instagram ↗</a></article>
+<article class="card social-card"><div aria-label="TikTok logo" class="social-brand social-tiktok"><svg aria-hidden="true" role="img" viewbox="0 0 48 48"><path d="M27 5v24.1a9.2 9.2 0 1 1-7.5-9.1v7.1a3.2 3.2 0 1 0 1.5 2.7V5h6.5c.6 5.1 3.4 8.2 8.5 9.3v6.6c-3.4-.5-6.4-1.8-9-4.1V5Z" fill="#25F4EE" transform="translate(-2 1)"></path><path d="M29 4v24.1a9.2 9.2 0 1 1-7.5-9.1v7.1a3.2 3.2 0 1 0 1.5 2.7V4h6.5c.6 5.1 3.4 8.2 8.5 9.3v6.6c-3.4-.5-6.4-1.8-9-4.1V4Z" fill="#FE2C55" transform="translate(-1 1)"></path><path d="M28 4v24.1a9.2 9.2 0 1 1-7.5-9.1v7.1a3.2 3.2 0 1 0 1.5 2.7V4h6.5c.6 5.1 3.4 8.2 8.5 9.3v6.6c-3.4-.5-6.4-1.8-9-4.1V4Z" fill="#111111"></path></svg></div><h3>TikTok</h3><a class="btn primary" href="https://www.tiktok.com/@nick.digiovanni" rel="noopener" target="_blank">Visit TikTok ↗</a></article>
+<article class="card social-card"><div aria-label="Facebook logo" class="social-brand social-facebook"><svg aria-hidden="true" role="img" viewbox="0 0 48 48"><rect fill="#1877F2" height="42" rx="8" width="42" x="3" y="3"></rect><path d="M28.5 45V27.2h6l.9-7h-6.9v-4.5c0-2 0.6-3.4 3.5-3.4h3.7V6.1c-.6-.1-2.8-.3-5.3-.3-5.3 0-9 3.2-9 9.2v5.2h-6v7h6V45Z" fill="#FFFFFF"></path></svg></div><h3>Facebook</h3><a class="btn primary" href="https://www.facebook.com/nick.digiovanni" rel="noopener" target="_blank">Visit Facebook ↗</a></article>
+<article class="card social-card"><div aria-label="Snapchat logo" class="social-brand social-snapchat"><svg aria-hidden="true" role="img" viewbox="0 0 48 48"><path d="M24 4c-7.5 0-11.3 5.7-11.3 13.2 0 2.4.3 4.2-.4 5.6-.7 1.6-2.8 3.1-5.4 4.2-.9.4-.7 1.7.3 2.1 1.5.6 3.2.9 4.7 1.1.7.1 1 .6 1.2 1.2.3 1.1.9 2.2 2.1 2.6 1.3.4 2.9-.1 4.3.4 1.7.5 2.9 2.4 4.5 3.2 1.5.8 2.5.8 4 0 1.6-.8 2.8-2.7 4.5-3.2 1.4-.5 3 .1 4.3-.4 1.2-.4 1.8-1.5 2.1-2.6.2-.6.5-1.1 1.2-1.2 1.5-.2 3.2-.5 4.7-1.1 1-.4 1.2-1.7.3-2.1-2.6-1.1-4.7-2.6-5.4-4.2-.7-1.4-.4-3.2-.4-5.6C35.3 9.7 31.5 4 24 4Z" fill="#FFFC00" stroke="#111111" stroke-width="1.8"></path><path d="M18 19c1.7-1.7 3.5-1.7 5.2 0M25.5 19c1.7-1.7 3.5-1.7 5.2 0" fill="none" stroke="#111111" stroke-linecap="round" stroke-width="2.4"></path></svg></div><h3>Snapchat</h3><a class="btn primary" href="https://www.snapchat.com/@nick.digiovanni" rel="noopener" target="_blank">Visit Snapchat ↗</a></article>
+</div>
+</div></section>
+<section class="dark" id="awards"><div class="wrap">
+<div class="section-head"><div><span class="kicker">06 / Recognition</span><h2>Awards &amp; Achievements</h2></div><p class="section-intro">A look at Nick’s achievements and recognition, including selected Forbes and Webby Awards highlights.</p></div>
+<div class="grid3">
+<article class="card award-card"><img alt="Forbes 30 Under 30 Food &amp; Drink feature photo" class="media-photo award-photo" loading="lazy" src="assets/images/forbes-30-under-30-feature.jpg"/><span class="tag">2021</span><h3>Forbes 30 Under 30 — Food &amp; Drink</h3><p>Recognition in Forbes’ 30 Under 30 Food &amp; Drink category.</p><p class="small"><a href="https://www.forbes.com/sites/chloesorvino/2020/12/01/meet-the-breakout-entrepreneurs-who-are-resetting-the-food-industry-while-under-30-years-old" rel="noopener" target="_blank">Read Forbes article ↗</a></p></article>
+<article class="card award-card"><img alt="Nick DiGiovanni holding his Streamy Award" class="media-photo" loading="lazy" src="assets/images/nick-digiovanni-streamy-award.jpg" title="Nick DiGiovanni holding his Streamy Award"/><span class="tag">2023</span><h3>Streamy Award — Food</h3><p>Nick won the Food category at the 2023 Streamy Awards.</p><p class="small"><a href="https://www.facebook.com/streamys/videos/nick-digiovanni-wins-food-2023-streamy-awards/841563203850150" rel="noopener" target="_blank">View award post ↗</a></p></article>
+<article class="card award-card"><img alt="Nick DiGiovanni with a YouTube Diamond Creator Award" class="media-photo" loading="lazy" src="assets/images/nick-digiovanni-youtube-diamond-award.jpg" title="Nick DiGiovanni with a YouTube Diamond Creator Award"/><span class="tag">2023</span><h3>YouTube Diamond Creator Award</h3><p>Nick is pictured with his YouTube Diamond Creator Award.</p><p class="small"><a href="https://blog.youtube/creator-and-artist-stories/celebrating-10-years-of-youtube-creator-awards" rel="noopener" target="_blank">Read YouTube Creator Awards article ↗</a></p></article>
+<article class="card award-card"><img alt="Nick DiGiovanni’s Webby Awards People’s Voice Winner, Social, Food &amp; Drink" class="media-photo award-photo" loading="lazy" src="assets/images/nick-digiovanni-webby-social-food-drink.jpg"/><span class="tag">2025</span><h3>People’s Voice Winner — Social, Food &amp; Drink</h3><p>Listed as a People’s Voice winner in the Social Food &amp; Drink category.</p><p class="small"><a href="https://winners.webbyawards.com/2025/social/general-social/food-drink/324970/nick-digiovanni" rel="noopener" target="_blank">View 2025 Webby entry ↗</a></p></article>
+<article class="card award-card"><img alt="Nick DiGiovanni’s Webby Awards Creators, Food &amp; Drink recognition" class="media-photo award-photo" loading="lazy" src="assets/images/nick-digiovanni-webby-creators.jpg"/><span class="tag">2026</span><h3>Webby Awards — Creators, Food &amp; Drink</h3><p>Recognition in the 2026 Creators, Food &amp; Drink category.</p><p class="small"><a href="https://winners.webbyawards.com/2026/creators/individual-creator/food-drink/364219/nick-digiovanni" rel="noopener" target="_blank">View 2026 Webby entry ↗</a></p></article>
+</div>
+</div></section>
+<section id="favourite-media"><div class="wrap">
+<div class="section-head"><div><span class="kicker">07 / Media selection</span><h2>My 3 Favourite Media Items</h2></div><p class="section-intro">These are three pieces of Nick’s content that I enjoy</p></div>
+<div class="grid3">
+<article class="card favourite-media-card">
+<a aria-label="Watch Nick DiGiovanni's burger video on YouTube" class="video-thumbnail-link" href="https://youtu.be/kfW94tNMFkA?si=NM-pQYE4cyDUZ1Tx" rel="noopener" target="_blank">
+<img alt="Thumbnail for Nick DiGiovanni's burger-making YouTube video" class="media-photo video-thumbnail" loading="lazy" src="https://img.youtube.com/vi/kfW94tNMFkA/hqdefault.jpg"/>
+<span aria-hidden="true" class="video-play">▶</span>
+</a>
+<span class="tag">Favourite item 01 · YouTube</span>
+<h3>Learning to Make a Proper Burger</h3>
+<p>Since I love burgers so much, this video has completely taught me how to make a proper burger. I enjoy how it guides me through the burger-making process and helps me understand how to prepare one properly.</p>
+<p>Another reason I chose this video is that it is short and does not take much time to watch. It works as a fast learning platform for me because I can quickly pick up useful cooking knowledge without having to spend too much time going through a long video.</p>
+<a class="btn primary" href="https://youtu.be/kfW94tNMFkA?si=NM-pQYE4cyDUZ1Tx" rel="noopener" target="_blank">Watch the YouTube video ↗</a>
+</article>
+<article class="card favourite-media-card instagram-favourite-card">
+<a aria-label="Watch Nick DiGiovanni’s Instagram Reel about a chicken cooking experiment" class="instagram-reel-link" href="https://www.instagram.com/reel/DdJylL7hcNa/?cplk=aXBlZjVqbHNnMnFl" rel="noopener" target="_blank">
+<div aria-hidden="true" class="instagram-reel-poster">
+<span class="instagram-reel-platform"><span class="instagram-glyph">◎</span> Instagram Reel</span>
+<span class="instagram-reel-title">COOKING<br/>EXPERIMENT</span>
+<span class="instagram-reel-subtitle">OVERCOOKED vs UNDERCOOKED CHICKEN</span>
+<span class="instagram-reel-play">▶</span>
+<span class="instagram-reel-sticker">WHAT HAPPENS?</span>
+</div>
+</a>
+<span class="tag">Favourite item 02 · Instagram Reel</span>
+<h3>A Chicken Cooking Experiment</h3>
+<p>Nick doesn’t just cook; he also carries out experiments for his audience. In this Reel, he explores what happens when chicken is overcooked or undercooked. I find this especially interesting because it lets viewers like me see the results of different cooking outcomes and learn something beyond a regular recipe.</p>
+<p>I also like that his Instagram Reels are short while still keeping my attention and curiosity. They make me want to keep watching to find out what happens, without taking too much time. That mix of quick learning and entertainment is one of the reasons I enjoy watching his Reels.</p>
+<a class="btn primary" href="https://www.instagram.com/reel/DdJylL7hcNa/?cplk=aXBlZjVqbHNnMnFl" rel="noopener" target="_blank">Watch the Instagram Reel ↗</a>
+</article>
+<article class="card"><img alt="Cover of Knife Drop: Creative Recipes Anyone Can Cook" class="book-cover" loading="lazy" src="assets/images/knife-drop-book-cover.jpg" title="Cover of Knife Drop: Creative Recipes Anyone Can Cook"/><span class="tag">Favourite item 03 · Cookbook</span><h3>Egg Benedict Sandwich with Holiday Sauce</h3><p>One recipe that caught my attention in Nick’s cookbook, <em>Knife Drop</em>, is the Egg Benedict Sandwich. To me, it looks almost like a McDonald’s muffin sandwich. I assume it could be a healthier homemade version, although that would depend on the ingredients and how it is prepared.</p><p>Compared with his burger recipe, I find this recipe much simpler to make. The real highlight, however, is his Holiday Sauce. I find it impressively delicious, and it is the key element that brings the whole sandwich together.</p><p>I also like that this recipe gives me room to customise the other ingredients. I can choose my favourite type of meat and vegetables, so I can make the sandwich according to my own preferences. However, I would still rely on Nick’s Holiday Sauce because, without it, the dish would lose much of its flavour and brightness.</p></article>
+</div>
+</div></section>
+<section class="dark" id="foodie-post"><div class="wrap">
+<div class="page-hero"><span class="kicker">08 / My original food media</span><h1>Foodie Post</h1><p class="lead">My personal food adventures, one delicious bite at a time.</p></div>
+<div class="foodie-definition">
+<figure class="photo-panel"><img alt="Dictionary-style definition of foodie supplied in the PDF" class="definition-image" loading="lazy" src="assets/images/foodie-definition.png" title="Dictionary-style definition of foodie supplied in the PDF"/><figcaption>Definition of “foodie” used in my project.</figcaption></figure>
+<article class="card"><span class="tag">What is a foodie?</span><h2>Food is more than just eating</h2><p>To me, being a foodie is about more than just eating because I’m hungry. It’s about enjoying the whole experience of food — discovering new places, trying different dishes, exploring different flavours and appreciating the little details that make each meal special. I am a foodie because I enjoy seeking out new restaurants, comparing different dishes, learning about the stories and cultures behind the food and sharing my honest opinions with others. Whether I’m enjoying Malaysian food, grabbing a pizza with friends or trying a new burger spot, I love capturing those moments and sharing my experiences through photos, reviews and recommendations. I also enjoy thinking about what makes each meal memorable, from the taste and presentation to the atmosphere and the people I share it with. For me, food is a way to explore, create memories and discover something new with every bite. And that’s what EasonEats is all about — my personal food adventures, one delicious bite at a time!</p></article>
+</div>
+<div class="section-head" style="margin-top:38px"><div><span class="kicker">Three original posts</span><h2>My Foodie Posts</h2></div><p class="section-intro">My honest impressions of three different food experiences.</p></div>
+<div class="grid3">
+<article class="card food-card"><img alt="Ayam Gepuk meal from Gepuklah" loading="lazy" src="assets/images/ayam-gepuk-gepuklah.jpg" title="Ayam Gepuk meal from Gepuklah"/><div class="food-body"><span class="tag">Post 01 · Malaysian food</span><h3>#1. Ayam Gepuk from Gepuklah — So Good, But That Queue!</h3>
+<p>Some food is just so good that you keep thinking about it even after you’ve finished eating, and Gepuklah’s Ayam Gepuk is definitely one of those meals for me! The star of the show is the fried chicken, with its golden, crispy exterior and tender, juicy meat inside. But let’s talk about the sambal, because that’s where things get serious! As someone who genuinely loves spicy food and has a pretty high spice tolerance, I’d rate the sambal a 7/10 for spiciness. Honestly, it might be too intense for people who aren’t used to spicy food, but for me, it was still acceptable and added a fiery kick that made every bite more exciting. Combined with the rice and side dishes, the whole meal was savoury, satisfying and seriously delicious. If Gepuklah were closer to my place, I could easily see myself eating this once or even twice a week. Yes, I enjoyed it THAT much!</p>
+<p>Price-wise, I think it’s pretty reasonable and fair for what you get. When a meal tastes this good and leaves you feeling satisfied, I don’t mind paying for it. However, there are two things that make me hesitate before visiting again. First, the location is quite far from where I live, so getting there takes more effort than I’d like. Second, the queue can be disgustingly long! I guess that’s what happens when a place becomes this popular, but waiting ages when you’re already hungry is definitely not the most enjoyable part of the experience. The food makes me want to return, but the distance and waiting time make me think twice.</p>
+<p>Still, if you ask me whether I’d eat Gepuklah again, my answer is absolutely YES! The crispy chicken, fiery sambal and reasonable price make it worth considering despite the long queue. I just wish it were nearer to my place and that I didn’t have to wait so long to get my hands on it. For now, Gepuklah remains one of those places I crave whenever I’m in the mood for seriously good Ayam Gepuk. Great food, fair price, painful queue — but honestly, that sambal is hard to forget!</p>
+<p class="rating">EasonEats rates it: 9/10 🌶️🍗</p><p class="hashtag-line">#AyamGepuk #Gepuklah #SpicyFoodLover #FoodieAdventures #EasonEats</p>
+</div></article>
+<article class="card food-card"><img alt="Pizza and pasta at Pizza Mansion" loading="lazy" src="assets/images/pizza-mansion-food.jpg" title="Pizza and pasta at Pizza Mansion"/><div class="food-body"><span class="tag">Post 02 · Pizza</span><h3>#2. Pizza Mansion — My Go-To Spot for Special Occasions</h3>
+<p>Some places are just worth coming back to, and Pizza Mansion is definitely one of them! I’ve visited this place multiple times, especially when there’s a special occasion or something worth celebrating. Whether it’s a birthday, a gathering with friends or simply an excuse to enjoy some good food, Pizza Mansion always comes to mind. The first time I visited was at their KL branch, and later, I tried their Petaling Jaya branch, which is much closer to my place. They have three branches across the Klang Valley, so there are a few locations to choose from depending on where you are. What I appreciate most is that they offer an online booking system, which makes planning a meal much easier. I usually don’t have to wait long when I book ahead, and honestly, that’s a huge plus when all I want to do is sit down and enjoy my food!</p>
+<p>Now, let’s talk about my favourites, because these two dishes deserve their own spotlight: Silence of the Lambs and Truffle Mac &amp; Cheese! First up is the Silence of the Lambs pizza. The name itself is already memorable, but the flavour is what keeps me coming back. It features Moroccan lamb meatballs on a tomato-chilli base, topped with melted cheese, green chillies, yoghurt, harissa and coriander. I love how the rich, savoury lamb pairs with the spicy tomato base, while the yoghurt adds a creamy, cooling contrast to the bolder flavours. Every bite brings together a mix of savoury, spicy and tangy notes, making it a really satisfying pizza. And then there’s the Truffle Mac &amp; Cheese — honestly, if you’re a cheese lover, this one is hard to ignore! The macaroni is coated in a rich, creamy blend of cheeses, with truffle adding that distinctive earthy aroma and deep, savoury flavour. It’s comforting, cheesy and indulgent, the kind of dish that makes you want just one more bite even when you’re already full.</p>
+<p>Price-wise, I think Pizza Mansion is pretty reasonable and fair considering the quality of the food they serve. For me, it’s not just about paying for a pizza; it’s about enjoying well-made food with flavours that stand out. Of course, it might not be somewhere I visit every week, but that’s mainly because I tend to save it for special occasions rather than because of the price. The combination of quality food, creative menu choices and the convenience of booking ahead makes it a place I’m happy to revisit. If you’re looking for somewhere to celebrate with friends or enjoy a proper pizza night, I’d definitely recommend giving Pizza Mansion a try. Just make sure you leave some room for the Truffle Mac &amp; Cheese — trust me, you don’t want to miss it!</p>
+<p class="rating">EasonEats rates it: 9/10 🍕🧀</p><p class="hashtag-line">#PizzaMansion #SilenceOfTheLambs #TruffleMacAndCheese #PizzaLovers #EasonEats</p>
+</div></article>
+<article class="card food-card"><img alt="Burgers and fries at Shake Shack" loading="lazy" src="assets/images/shake-shack-burger-fries.jpg" title="Burgers and fries at Shake Shack"/><div class="food-body"><span class="tag">Post 03 · Fast food</span><h3>#3. Shake Shack @ Sunway Pyramid — Is It Really Worth the Hype?</h3>
+<p>I finally got to try Shake Shack at Sunway Pyramid, and honestly, I have mixed feelings about this one. Shake Shack is an American burger brand that has become popular worldwide, so I was curious to see whether its burgers would really stand out from the usual fast-food options we have in Malaysia. After trying it for myself, I’d say the food was okay — nothing terrible, but nothing that completely blew me away either. The burger had the familiar combination of a juicy beef patty, melted cheese, fresh vegetables and sauce, while the fries were pretty standard crinkle-cut fries. Everything was enjoyable enough, but I didn’t walk away thinking, “Wow, I need to come back for this!” Maybe my expectations were a little too high because of all the hype surrounding the brand.</p>
+<p>Now, let’s talk about the price, because this is where things get a little difficult for me. I understand that Shake Shack originated in the United States and operates as an international brand, so there may be additional costs involved. However, that doesn’t automatically make the price feel worth it to me as a customer. For a burger-and-fries meal, I personally find it expensive, especially when I compare it with more familiar options like McDonald’s. At the end of the day, both places serve burgers, fries and other fast-food favourites. Although the ingredients, preparation and flavours may differ, I didn’t feel that the taste difference was big enough to justify paying so much more. If I’m craving a burger, I’d honestly rather spend less at McDonald’s and still enjoy a satisfying meal. For me, the issue isn’t that Shake Shack serves bad food; it’s that the overall experience didn’t feel special enough for the price.</p>
+<p>Another thing worth mentioning is that Shake Shack has several branches across Malaysia, including Sunway Pyramid, Pavilion Kuala Lumpur, The Exchange TRX and KLIA2, making it accessible to people in different locations. However, having more branches doesn’t necessarily mean I’ll be rushing back for another visit. I’ve only tried the Sunway Pyramid branch once, and, to be honest, I don’t really see myself revisiting it anytime soon. I’m glad I tried it because at least now I know what the hype is about, but I wouldn’t go out of my way to have it again. If I’m craving a quick burger, there are other options that suit my budget better.</p>
+<p>Overall, I’d say Shake Shack is worth trying once if you’re curious about the brand, but it personally didn’t win me over. The food was decent, the experience was fine, and I can understand why people might enjoy it. However, when I consider the price, flavour and other fast-food alternatives available, I just don’t think it offers enough value for me. Maybe it’s a matter of personal preference, but I’d rather save my money for food that leaves a stronger impression on me. No hate to Shake Shack — it simply wasn’t my cup of tea, or should I say, my kind of burger!</p>
+<p class="rating">EasonEats rates it: 5/10 🍔</p><p class="hashtag-line">#ShakeShack #SunwayPyramid #BurgerReview #WorthTheHype #EasonEats</p>
+</div></article>
+</div>
+</div></section>
+</main><footer class="footer"><div class="wrap footer-row"><div><strong>EasonEats</strong><p class="small">Yeow Eason · Student ID: 0374443 · Food Media portfolio</p></div><a class="toplink" href="#home">Back to top ↑</a></div></footer>
+<script>(() => {
+  const allSections = Array.from(document.querySelectorAll('main > section'));
+  const homeIds = new Set(['home']);
+  const nickIds = new Set(['about-nick', 'tv-shows', 'social-media', 'awards', 'favourite-media']);
+  const foodieIds = new Set(['foodie-post']);
+  const navLinks = Array.from(document.querySelectorAll('.links a, .dropbtn'));
+  const homeLink = document.querySelector('.links a[data-page="home"]');
+  const brandLink = document.querySelector('.brand');
+  const foodieLink = document.querySelector('.links a[data-page="foodie"]');
+  const nickButton = document.querySelector('.dropbtn[data-page="nick"]');
+  const nickDropdown = document.querySelector('.dropdown');
+
+  function pageForHash(hash) {
+    if (foodieIds.has(hash)) return 'foodie';
+    if (nickIds.has(hash)) return 'nick';
+    return 'home';
+  }
+
+  function setNickMenuOpen(open) {
+    nickDropdown?.classList.toggle('open', open);
+    nickButton?.setAttribute('aria-expanded', String(open));
+  }
+
+  function showPage(page, targetId = null, updateHash = true) {
+    // Each top-level navigation view has its own explicitly defined section set.
+    const visibleIds = page === 'home' ? homeIds : page === 'foodie' ? foodieIds : nickIds;
+
+    allSections.forEach(section => {
+      const visible = visibleIds.has(section.id);
+      section.classList.toggle('page-hidden', !visible);
+      section.hidden = !visible;
+      section.setAttribute('aria-hidden', String(!visible));
+    });
+
+    navLinks.forEach(link => {
+      const current = link.dataset.page === page && !link.classList.contains('nick-subnav');
+      if (current) link.setAttribute('aria-current', 'page');
+      else link.removeAttribute('aria-current');
+    });
+
+    if (updateHash) {
+      const hashTarget = targetId || (page === 'home' ? 'home' : page === 'foodie' ? 'foodie-post' : 'about-nick');
+      history.replaceState(null, '', '#' + hashTarget);
+    }
+
+    requestAnimationFrame(() => {
+      if (targetId && page === 'nick') {
+        document.getElementById(targetId)?.scrollIntoView({ behavior: 'auto', block: 'start' });
+      } else {
+        window.scrollTo({ top: 0, behavior: 'auto' });
+      }
+    });
+  }
+
+  homeLink?.addEventListener('click', event => {
+    event.preventDefault();
+    setNickMenuOpen(false);
+    showPage('home');
+  });
+  brandLink?.addEventListener('click', event => {
+    event.preventDefault();
+    setNickMenuOpen(false);
+    showPage('home');
+  });
+  foodieLink?.addEventListener('click', event => {
+    event.preventDefault();
+    setNickMenuOpen(false);
+    showPage('foodie');
+  });
+
+  nickButton?.addEventListener('click', event => {
+    event.preventDefault();
+    const wasOpen = nickDropdown?.classList.contains('open');
+    showPage('nick');
+    setNickMenuOpen(!wasOpen);
+  });
+
+  document.addEventListener('click', event => {
+    if (nickDropdown && !nickDropdown.contains(event.target)) setNickMenuOpen(false);
+  });
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape') {
+      setNickMenuOpen(false);
+      nickButton?.focus();
+    }
+  });
+
+  document.querySelectorAll('.nick-subnav').forEach(link => {
+    link.addEventListener('click', event => {
+      event.preventDefault();
+      const targetId = link.getAttribute('href').slice(1);
+      showPage('nick', targetId);
+      setNickMenuOpen(false);
+    });
+  });
+
+  document.querySelector('.toplink')?.addEventListener('click', event => {
+    event.preventDefault();
+    setNickMenuOpen(false);
+    showPage('home');
+  });
+
+  window.addEventListener('hashchange', () => {
+    const hash = window.location.hash.slice(1);
+    showPage(pageForHash(hash), nickIds.has(hash) ? hash : null, false);
+  });
+
+  const initialHash = window.location.hash.slice(1);
+  showPage(pageForHash(initialHash), nickIds.has(initialHash) ? initialHash : null, false);
+})();</script></body></html>
